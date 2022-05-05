@@ -12,11 +12,14 @@ r = requests.get(url)
 # print(tostring(root))
 # for el in root.find_class("list-item-country"):
 #   print(el)
-soup = BeautifulSoup(r.text, "html.parser")
+soup = BeautifulSoup(r.text,   "html.parser")
 print(soup.prettify())
 for country in soup.find_all("div", class_="list-item-country"):
   country_obj = {}
-  country_obj['name'] = country.find("a").get_text().strip()
+  link = country.find("a")
+  country_obj['name'] = link.get_text().strip()
+  country_obj['link'] = link.get("href")
+  country_obj['color'] = link.get("style")
   countries.append(country_obj)
 
 print(json.dumps(countries, indent=2))
