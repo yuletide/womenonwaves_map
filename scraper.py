@@ -13,7 +13,7 @@ r = requests.get(url)
 # for el in root.find_class("list-item-country"):
 #   print(el)
 soup = BeautifulSoup(r.text,   "html.parser")
-print(soup.prettify())
+# print(soup.prettify())
 for country in soup.find_all("div", class_="list-item-country"):
   country_obj = {}
   link = country.find("a")
