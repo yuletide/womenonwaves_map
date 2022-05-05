@@ -1,0 +1,3088 @@
+<!DOCTYPE html>
+<html class="ltr" dir="ltr" lang="en" xml:lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport"/>
+  <title>
+   Abortion information per Country @  Women on Waves
+  </title>
+  <link href="/lib-min/css/bs3~site~logon~3043694841.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="/lib-min/font-awesome-4/css/font-awesome~177604729.css" media="none" onload="if(media!='all')media='all'" rel="stylesheet" type="text/css"/>
+  <noscript>
+   <link href="/lib-min/font-awesome-4/css/font-awesome~177604729.css" media="all" rel="stylesheet" type="text/css"/>
+  </noscript>
+  <meta content="Women on Waves" property="og:site_name">
+   <meta content="Abortion information per Country" property="og:title">
+    <meta content="Click on a country to find out under what brand name misoprostol is sold, the abortion laws, possible abortion providers, local women's organisation's, etc." property="og:description">
+     <meta content="https://www.womenonwaves.org/en/map/country" property="og:url"/>
+     <meta content="https://www.womenonwaves.org/image/2021/1/12/abortion_laws_2019.png%28mediaclass-meta-tag-image.4b190bfcc55e159332679890b17bd2261ced7954%29.jpg" property="og:image"/>
+     <meta content="Women on Waves" name="twitter:site"/>
+     <meta content="Abortion information per Country" name="twitter:title"/>
+     <meta content="Click on a country to find out under what brand name misoprostol is sold, the abortion laws, possible abortion providers, local women'…" name="twitter:description"/>
+     <meta content="https://www.womenonwaves.org/image/2021/1/12/abortion_laws_2019.png%28mediaclass-meta-tag-image.4b190bfcc55e159332679890b17bd2261ced7954%29.jpg" name="twitter:image"/>
+     <meta content="summary_large_image" name="twitter:card"/>
+     <link href="https://www.womenonwaves.org/es/map/country" hreflang="es" rel="alternate" title="">
+      <link href="https://www.womenonwaves.org/map/country" hreflang="x-default" rel="alternate" title="Abortion information per Country">
+       <link href="/lib/css/mod_translation~177604729.css" media="all" rel="stylesheet" type="text/css"/>
+       <link href="/lib/css/ol~177473648.css" media="all" rel="stylesheet" type="text/css"/>
+       <link href="https://www.womenonwaves.org/en/map/country" rel="canonical">
+        <link href="https://www.womenonwaves.org/en/id/2848" rel="shortlink">
+         <meta content="abortion information, abortion law, misoprostol, cytotec, misoprostol, mifepriston, RU 486, artrotec,  abortion ,  abortion pill ,  pastilla abortiva , ijhad,  avortement ,  pilule avortement ,  aborsi ,  aborto ,  tabletki poronne , aborsyon , pagpapalaglag , Kurtaj , misoprostol , cytotec , mifepriston , RU486 ,  الإجهاض , الإجهاض  الحبوب  , دارو سقط جنین ,  中絶  , MIMBA" name="keywords"/>
+         <meta content="Click on a country to find out under what brand name misoprostol is sold, the abortion laws, possible abortion providers, local women's organisation'…" name="description"/>
+         <script>
+          var GA_LOCAL_STORAGE_KEY = 'ga:clientId';
+                var ga_options = 
+{
+}
+;
+                window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+                if (window.localStorage) {
+                  ga_options.storage = 'none';
+                  ga_options.clientId = localStorage.getItem(GA_LOCAL_STORAGE_KEY);
+                  ga('create', 'UA-3223312-1', ga_options);
+                  ga(function(tracker) {
+                    localStorage.setItem(GA_LOCAL_STORAGE_KEY, tracker.get('clientId'));
+                  });
+                }
+                else {
+                  ga('create', 'UA-3223312-1', 'auto', ga_options);
+                }
+                ga('set', 'anonymizeIp', true);
+                ga('send', 'pageview');
+         </script>
+         <script async="" src="https://www.google-analytics.com/analytics.js">
+         </script>
+         <script type="text/javascript">
+          var cotonic = cotonic || {};
+
+
+cotonic.readyResolve = null;
+cotonic.ready = new Promise(function(resolve) { cotonic.readyResolve = resolve; });
+cotonic.bridgeSocket = new WebSocket(
+    window.location.origin.replace(/^http/, 'ws')+ '/mqtt-transport',
+    [ 'mqtt' ]);
+cotonic.bridgeSocket.binaryType = 'arraybuffer';
+
+
+cotonic.bufferEvent = function(event) {
+    const topic = event.target.getAttribute( "data-on"+event.type+"-topic" );
+    if (typeof topic === "string") {
+        let cancel = event.target.getAttribute( "data-on"+event.type+"-cancel" );
+        if (cancel === null) {
+            if (event.cancelable) {
+                event.preventDefault();
+            }
+            event.stopPropagation();
+        } else {
+            switch (cancel) {
+                case "0":
+                case "no":
+                case "false":
+                    cancel = false;
+                    break;
+                case "preventDefault":
+                    if (event.cancelable) {
+                        event.preventDefault();
+                    }
+                    break;
+                default:
+                    if (event.cancelable) {
+                        event.preventDefault();
+                    }
+                    event.stopPropagation();
+                    break;
+            }
+        }
+        cotonic.bufferedEvents.push(event);
+    }
+};
+cotonic.bufferedEvents = [];
+document.addEventListener("submit", cotonic.bufferEvent);
+document.addEventListener("click", cotonic.bufferEvent);
+cotonic.ready.then(
+    function() {
+        document.removeEventListener("submit", cotonic.bufferEvent);
+        document.removeEventListener("click", cotonic.bufferEvent);
+    });
+         </script>
+         <link href="/image/lib/images/logo-dot.png%28mediaclass-icon-128.e45e25d26cce2d4e87bcd3f6454a1b2320512a37%29.png" rel="apple-touch-icon"/>
+         <link href="/image/lib/images/logo-dot.png%28mediaclass-icon-152.e883dcf419519594da84d5f60e7fe6f96a8080b8%29.png" rel="apple-touch-icon" sizes="152x152"/>
+         <link href="/image/lib/images/logo-dot.png%28mediaclass-icon-167.bfe039b28140f37e21c5448d6fdb9ee139c27939%29.png" rel="apple-touch-icon" sizes="167x167"/>
+         <link href="/image/lib/images/logo-dot.png%28mediaclass-icon-180.6bf4438f6cbc1d2c00dcc77011c7e5d32e21d7c6%29.png" rel="apple-touch-icon" sizes="180x180"/>
+         <link href="/image/lib/images/logo-dot.png%28mediaclass-icon-192.b04dee328c92d91b1917fd7fef0f39e4a1cc2414%29.png" rel="icon" sizes="192x192"/>
+        </link>
+       </link>
+      </link>
+     </link>
+    </meta>
+   </meta>
+  </meta>
+ </head>
+ <body class="page-page_map_country cat-collection cat-query" data-cotonic-pathname-search="zotonic_site=womenonwaves2&amp;zotonic_dispatch_path_rewrite=page2848abortion-information-per-country&amp;zotonic_dispatch_path=mapcountry&amp;zotonic_dispatch=page&amp;z_language=en&amp;slug=abortion-information-per-country&amp;id=2848">
+  <!-- Top of page header -->
+  <div id="header-wrapper">
+   <header id="header">
+    <nav class="navbar navbar-grid no-user">
+     <label for="nav-toggle" id="nav-label">
+      ☰
+     </label>
+     <!-- Brand logo or name -->
+     <div class="home-link">
+      <a href="/en/">
+       <img alt="Women on Waves" class="img-responsive" src="/image/lib/images/logo-square-600.png%28mediaclass-logo-top.a45c8e6e14184a7ad9d6963ebc1a92d8f80374a1%29.png"/>
+       Women on Waves
+      </a>
+     </div>
+     <a class="action-link" href="/en/page/7689/women-on-web-to-obtain-a-safe-abortion-with-pills">
+      Women on Web: safe abortion
+     </a>
+    </nav>
+   </header>
+  </div>
+  <!-- Optional page header -->
+  <!-- Main navigation sidebar -->
+  <input id="nav-toggle" type="checkbox"/>
+  <label for="nav-toggle" id="sidedrawer-bg">
+  </label>
+  <nav id="sidedrawer">
+   <div>
+    <div class="logo if-full-width">
+     <a href="/en/">
+      <img alt="Women on Waves" class="mediaclass-logo img-responsive" decoding="async" height="300" src="/image/lib/images/logo-square-600.png%28mediaclass-logo.e91673658f132babb0fb41120d1467594ce14cf2%29.png" width="300">
+       Women on Waves
+      </img>
+     </a>
+    </div>
+    <form action="/en/search" class="search-form" method="get">
+     <input class="form-control" name="qs" placeholder="Search" type="text" value=""/>
+    </form>
+    <ul class="nav nav-stacked">
+     <li>
+      <a href="/en/language/switch?id=2848&amp;p=%2Fen%2Fmap%2Fcountry" rel="nofollow">
+       Language: English
+      </a>
+     </li>
+     <li class="divider">
+     </li>
+     <li class="">
+      <a href="/en/page/650/who-are-we">
+       Who Are We?
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/page/517/campaigns">
+       Campaigns
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/page/519/press">
+       Press
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/page/2593/become-active">
+       Become Active
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/page/2588/sex-abortion-birth">
+       Sex, Abortion, &amp; Birth
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/page/1013/resources">
+       Resources
+      </a>
+      <ul class="nav nav-stacked">
+       <li class="selected">
+        <a href="/en/map/country">
+         Abortion information per Country
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/2591/training-manuals">
+         Training Manuals
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/5589/animation-how-to-do-a-safe-abortion-with-the-pills-misoprostol">
+         Animation "How to do a safe abortion with the pills misoprostol"
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/7554/animation-how-to-do-a-safe-abortion-with-the-pills-mifepristone-and">
+         Animation:"How to do a safe abortion with the pills mifepristone and misoprostol"
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/4071/audio-files-safe-abortion-hotlines">
+         Audio files safe abortion hotlines
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/2592/safe-abortion-low-literacy">
+         Safe abortion: low-literacy
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/2702/safe-birth-low-literacy">
+         Safe birth: low-literacy
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/1036/safe-abortion-stickers">
+         Safe Abortion Stickers
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/2879/resources-from-world-health-organisation">
+         Resources from World Health Organisation
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/6510/ippf-guide---how-to-educate-about-abortion--a-guide-for-peer-educators--teachers">
+         IPPF guide: 'How to educate about abortion: A guide for peer educators, teachers and trainers'
+        </a>
+       </li>
+       <li class="">
+        <a href="/en/page/515/abortion-facts">
+         Facts
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="">
+      <a href="/en/page/7721/make-a-donation">
+       Donate!
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/page/2928/contact">
+       Contact
+      </a>
+     </li>
+     <li class="">
+      <a href="/en/mailinglist/2872/sign-up-for-newsletters">
+       Sign up for newsletters
+      </a>
+     </li>
+     <li class="divider">
+     </li>
+     <li>
+      <div class="social-icons">
+       <div>
+        <a href="https://www.facebook.com/womenonwaves/" title="Join us on Facebook">
+         <span class="fa fa-facebook">
+         </span>
+        </a>
+        <a href="https://twitter.com/WomenOnWaves_" title="Follow us on Twitter">
+         <span class="fa fa-twitter">
+         </span>
+        </a>
+        <a href="https://www.youtube.com/user/womenonwaves" title="Follow us on Youtube">
+         <span class="fa fa-youtube">
+         </span>
+        </a>
+        <a href="https://www.linkedin.com/company/women-on-waves/" title="Follow us on LinkedIn">
+         <span class="fa fa-linkedin">
+         </span>
+        </a>
+       </div>
+       <div class="email">
+        <a href="mailto:info@womenonwaves.org">
+         <span class="fa fa-envelope">
+         </span>
+         info@womenonwaves.org
+        </a>
+       </div>
+       <div class="share">
+        <a href="#" id="uE9GLJCPWMCE-share">
+         <span class="fa fa-share-square">
+         </span>
+         Share this page
+        </a>
+       </div>
+      </div>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Main content including footer -->
+  <div id="content-wrapper">
+   <main class="ltr" dir="ltr" id="content" lang="en" xml:lang="en">
+    <div>
+     <div class="page-header" style="background-image: url(/image/2021/1/12/abortion_laws_2019.png%28mediaclass-page-header.3877d68d9e5e305f3acd572ca2269eeea0fb54ae%29.jpg)">
+     </div>
+     <h1>
+      Abortion information per Country
+     </h1>
+     <p class="summary">
+      Click on a country to find out under what brand name misoprostol is sold, the abortion laws, possible abortion providers, local women's organisation's, etc.
+      <br/>
+      Orange: Abortion illegal and Misoprostol is easily available.
+      <br/>
+      Purple: Abortion is legal
+      <br/>
+      Pink: Abortion illegal and Misoprostol is not registered or very hard to get. Go to www.womenonweb.org to get abortionpills.
+     </p>
+     <div class="body clearfix">
+     </div>
+     <div class="share">
+      <a href="#" id="u7QWUOS9YX2C-share">
+       <span class="fa fa-share-square">
+       </span>
+       Share this page
+      </a>
+     </div>
+     <div class="connections paged" id="content-pager">
+      <div class="list-items">
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2808/afghanistan" style="color: #FF0066">
+          Afghanistan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3221/albania" style="color: #331575">
+          Albania
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3198/algeria" style="color: #FF0066">
+          Algeria
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2752/angola" style="color: #FF0066">
+          Angola
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2802/argentina" style="color: #331575">
+          Argentina
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3223/armenia" style="color: #331575">
+          Armenia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4587/aruba" style="color: #ff0066">
+          Aruba
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3242/australia" style="color: #fe7d18">
+          Australia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3222/austria" style="color: #331575">
+          Austria
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4276/azerbaijan" style="color: #331575">
+          Azerbaijan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3122/bahrain" style="color: #ff0066">
+          Bahrain
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3191/bangladesh" style="color: #FE7D18">
+          Bangladesh
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4749/barbados" style="color: #331575">
+          Barbados
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4251/belarus" style="color: #331575">
+          Belarus
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3224/belgium" style="color: #331575">
+          Belgium
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4590/belize" style="color: #FE7D18">
+          Belize
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3174/benin" style="color: #fe7d18">
+          Benin
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4281/bhutan" style="color: #FF0066">
+          Bhutan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2748/bolivia" style="color: #FF0066">
+          Bolivia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4235/bosnia-herzegovina" style="color: #331575">
+          Bosnia-Herzegovina
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2753/botswana" style="color: #FF0066">
+          Botswana
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2812/brazil" style="color: #ff0066">
+          Brazil
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5305/british-virgin-islands">
+          British Virgin Islands
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3225/bulgaria" style="color: #331575">
+          Bulgaria
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3175/burkina-faso" style="color: #FF0066">
+          Burkina Faso
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3179/burundi" style="color: #FF0066">
+          Burundi
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2728/cambodia" style="color: #331575">
+          Cambodia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2756/cameroon" style="color: #FE7D18">
+          Cameroon
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3183/canada" style="color: #331575">
+          Canada
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/7608/cape-verde" style="color: #331575">
+          Cape Verde
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3201/central-african-republic" style="color: #ff0066">
+          Central African Republic
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3200/chad" style="color: #FF0066">
+          Chad
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2804/chile" style="color: #ff0066">
+          Chile
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3184/china" style="color: #331575">
+          China
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2746/colombia" style="color: #fe7d18">
+          Colombia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3212/congo" style="color: #FF0066">
+          Congo
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4293/costa-rica" style="color: #FF0066">
+          Costa Rica
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3211/cote-d-ivoire" style="color: #FF0066">
+          Cote d'Ivoire
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4236/croatia" style="color: #331575">
+          Croatia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4596/cuba" style="color: #331575">
+          Cuba
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5072/curacao" style="color: #331575">
+          Curacao
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3227/cyprus" style="color: #331575">
+          Cyprus
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3226/czech-republic" style="color: #331575">
+          Czech Republic
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4248/denmark" style="color: #331575">
+          Denmark
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3228/djibouti" style="color: #FF0066">
+          Djibouti
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3172/dominican-republic" style="color: #FF0066">
+          Dominican Republic
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2760/drc-congo" style="color: #ff0066">
+          DRC Congo
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2722/east-timor" style="color: #FF0066">
+          East Timor
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/1977/ecuador" style="color: #FF0066">
+          Ecuador
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3108/egypt" style="color: #ff0066">
+          Egypt
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2745/el-salvador" style="color: #FF0066">
+          El Salvador
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3216/equatorial-guinea" style="color: #FF0066">
+          Equatorial Guinea
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3204/eritrea" style="color: #FF0066">
+          Eritrea
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4265/estonia" style="color: #331575">
+          Estonia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2765/ethiopia" style="color: #FE7D18">
+          Ethiopia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4271/finland" style="color: #331575">
+          Finland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4227/france" style="color: #331575">
+          France
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3218/french-guiana" style="color: #331575">
+          French Guiana
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3207/gabon" style="color: #FF0066">
+          Gabon
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2767/gambia" style="color: #FF0066">
+          Gambia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4274/georgia" style="color: #331575">
+          Georgia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4232/germany" style="color: #331575">
+          Germany
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2768/ghana" style="color: #FE7D18">
+          Ghana
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4233/greece" style="color: #331575">
+          Greece
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3192/greenland" style="color: #331575">
+          Greenland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6800/guadeloupe" style="color: #331575">
+          Guadeloupe
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3159/guatemala" style="color: #fe7d18">
+          Guatemala
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6434/guernsey" style="color: #331575">
+          Guernsey
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3177/guinea" style="color: #FF0066">
+          Guinea
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3214/guinea-bissau" style="color: #FF0066">
+          Guinea Bissau
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3217/guyana" style="color: #331575">
+          Guyana
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4294/haiti" style="color: #ff0066">
+          Haiti
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3170/honduras" style="color: #ff0066">
+          Honduras
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5057/hong-kong">
+          Hong Kong
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4239/hungary" style="color: #331575">
+          Hungary
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4225/iceland" style="color: #331575">
+          Iceland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2731/india" style="color: #331575">
+          India
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3193/indonesia" style="color: #FE7D18">
+          Indonesia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3112/iran" style="color: #fe7d18">
+          Iran
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3111/iraq" style="color: #FF0066">
+          Iraq
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5551/ireland" style="color: #331575">
+          Ireland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6435/isle-of-man" style="color: #FF0066">
+          Isle of Man
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4280/israel" style="color: #FF0066">
+          Israel
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4230/italy" style="color: #331575">
+          Italy
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5198/jamaica" style="color: #FF0066">
+          Jamaica
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4289/japan" style="color: #331575">
+          Japan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6433/jersey---bailiwick-of-jersey" style="color: #331575">
+          Jersey - Bailiwick of Jersey
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3115/jordan" style="color: #ff0066">
+          Jordan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3187/kazakhstan" style="color: #331575">
+          Kazakhstan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2772/kenya" style="color: #FE7D18">
+          Kenya
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #000000">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6100/kosovo" style="color: #000000">
+          Kosovo
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3123/kuwait" style="color: #FF0066">
+          Kuwait
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4278/kyrgyzstan" style="color: #331575">
+          Kyrgyzstan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4282/laos" style="color: #FF0066">
+          Laos
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4263/latvia" style="color: #331575">
+          Latvia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3114/lebanon" style="color: #FE7D18">
+          Lebanon
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3203/lesotho" style="color: #ff0066">
+          Lesotho
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3208/liberia" style="color: #FF0066">
+          Liberia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3199/libya" style="color: #FF0066">
+          Libya
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4256/lithuania" style="color: #331575">
+          Lithuania
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4342/luxembourg" style="color: #331575">
+          Luxembourg
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4234/macedonia" style="color: #331575">
+          Macedonia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #000000">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3189/madagascar" style="color: #000000">
+          Madagascar
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2776/madagascar" style="color: #ff0066">
+          Madagascar
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3180/malawi" style="color: #FE7D18">
+          Malawi
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4287/malaysia" style="color: #ff0066">
+          Malaysia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3178/mali" style="color: #FE7D18">
+          Mali
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4343/malta" style="color: #ff0066">
+          Malta
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6802/martinique" style="color: #331575">
+          Martinique
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3173/mauritania" style="color: #ff0066">
+          Mauritania
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6101/mauritius">
+          Mauritius
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6804/mayotte" style="color: #331575">
+          Mayotte
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3106/mexico" style="color: #fe7d18">
+          Mexico
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4245/moldova" style="color: #331575">
+          Moldova
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3186/mongolia" style="color: #331575">
+          Mongolia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6505/montenegro" style="color: #331575">
+          Montenegro
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3107/morocco" style="color: #FE7D18">
+          Morocco
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2777/mozambique" style="color: #331575">
+          Mozambique
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2727/myanmar" style="color: #FE7D18">
+          Myanmar
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2778/namibia" style="color: #fe7d18">
+          Namibia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2726/nepal" style="color: #331575">
+          Nepal
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5084/netherlands-antilles" style="color: #FE7D18">
+          Netherlands Antilles
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4569/new-zealand" style="color: #331575">
+          New Zealand
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3169/nicaragua" style="color: #FF0066">
+          Nicaragua
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2779/niger" style="color: #ff0066">
+          Niger
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #fe7d18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2780/nigeria" style="color: #fe7d18">
+          Nigeria
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5390/northern-ireland" style="color: #FF0066">
+          Northern Ireland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/7042/northern-mariana-islands" style="color: #FF0066">
+          Northern Mariana Islands
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4290/north-korea" style="color: #331575">
+          North Korea
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4273/norway" style="color: #331575">
+          Norway
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3124/oman" style="color: #FF0066">
+          Oman
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2733/pakistan" style="color: #FE7D18">
+          Pakistan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4552/palestine" style="color: #FF0066">
+          Palestine
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3158/panama" style="color: #FF0066">
+          Panama
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4288/papua-new-guinea" style="color: #ff0066">
+          Papua New Guinea
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4292/paraguay" style="color: #ff0066">
+          Paraguay
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3160/peru" style="color: #FE7D18">
+          Peru
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2723/phillipines" style="color: #FF0066">
+          Phillipines
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4243/poland" style="color: #ff0066">
+          Poland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4229/portugal" style="color: #331575">
+          Portugal
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3125/qatar" style="color: #FF0066">
+          Qatar
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6805/reunion" style="color: #331575">
+          Reunion
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4238/romania" style="color: #331575">
+          Romania
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3185/russian-federation" style="color: #331575">
+          Russian Federation
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2781/rwanda" style="color: #FF0066">
+          Rwanda
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #000000">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4572/samoa" style="color: #000000">
+          Samoa
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3120/saudi-arabia" style="color: #FF0066">
+          Saudi Arabia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3176/senegal" style="color: #FF0066">
+          Senegal
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/6047/serbia" style="color: #331575">
+          Serbia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2785/sierra-leone" style="color: #FF0066">
+          Sierra Leone
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4742/singapore">
+          Singapore
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5552/sint-maarten" style="color: #331575">
+          Sint Maarten
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4244/slovakia" style="color: #331575">
+          Slovakia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4237/slovenia" style="color: #331575">
+          Slovenia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2786/somalia" style="color: #ff0066">
+          Somalia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2787/somaliland">
+          Somaliland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2788/south-africa" style="color: #331575">
+          South Africa
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #2c1376">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3244/south-korea" style="color: #2c1376">
+          South Korea
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5413/south-sudan" style="color: #ff0066">
+          South Sudan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4228/spain" style="color: #331575">
+          Spain
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2725/sri-lanka" style="color: #FE7D18">
+          Sri Lanka
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2789/sudan" style="color: #FF0066">
+          Sudan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3171/suriname" style="color: #ff0066">
+          Suriname
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4295/svalbard-and-jan-mayen-islands" style="color: #331575">
+          Svalbard and Jan Mayen Islands
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3215/swaziland" style="color: #FF0066">
+          Swaziland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4272/sweden" style="color: #331575">
+          Sweden
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4231/switzerland" style="color: #331575">
+          Switzerland
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/5481/syria" style="color: #FF0066">
+          Syria
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4283/taiwan" style="color: #FE7D18">
+          Taiwan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4279/tajikistan" style="color: #331575">
+          Tajikistan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2792/tanzania" style="color: #FE7D18">
+          Tanzania
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2732/thailand" style="color: #ff0066">
+          Thailand
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4247/the-netherlands" style="color: #331575">
+          The Netherlands
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3205/togo" style="color: #ff0066">
+          Togo
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2794/tunisia" style="color: #331575">
+          Tunisia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3196/turkey" style="color: #331575">
+          Turkey
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4275/turkmenistan" style="color: #331575">
+          Turkmenistan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0080">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3126/u-a-e" style="color: #FF0080">
+          U.A.E.
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2795/uganda" style="color: #FE7D18">
+          Uganda
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4246/ukraine" style="color: #331575">
+          Ukraine
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4226/united-kingdom" style="color: #331575">
+          United Kingdom
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3181/united-states-of-america" style="color: #331575">
+          United States of America
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3167/uruguay" style="color: #331575">
+          Uruguay
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/4277/uzbekistan" style="color: #331575">
+          Uzbekistan
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #ff0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3168/venezuela" style="color: #ff0066">
+          Venezuela
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #331575">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2729/vietnam" style="color: #331575">
+          Vietnam
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FF0066">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3202/western-sahara" style="color: #FF0066">
+          Western Sahara
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/3121/yemen" style="color: #FE7D18">
+          Yemen
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2796/zambia" style="color: #FE7D18">
+          Zambia
+         </a>
+        </h3>
+       </div>
+       <div class="list-item list-item-country do_clickable cat-location cat-country">
+        <div class="list-item-image-bar" style="background-color: #FE7D18">
+        </div>
+        <h3 class="ltr" dir="ltr" lang="en" xml:lang="en">
+         <a href="/en/page/2797/zimbabwe" style="color: #FE7D18">
+          Zimbabwe
+         </a>
+        </h3>
+       </div>
+      </div>
+     </div>
+    </div>
+   </main>
+   <footer>
+    <div class="footer-items">
+     <div class="footer-item featured do_clickable">
+      <h4 class="ltr" dir="ltr" lang="en" xml:lang="en">
+       <a href="/en/page/2893/women-on-web-request-abortion-pills">
+        Women on Web: request abortion pills
+       </a>
+      </h4>
+      <p class="ltr" dir="ltr" lang="en" xml:lang="en">
+       Living in a country where safe abortion…
+      </p>
+     </div>
+     <div class="footer-item do_clickable">
+      <h4 class="ltr" dir="ltr" lang="en" xml:lang="en">
+       <a href="/en/page/650/who-are-we">
+        Who Are We?
+       </a>
+      </h4>
+      <p class="ltr" dir="ltr" lang="en" xml:lang="en">
+       Women on Waves aims to prevent unsafe…
+      </p>
+     </div>
+    </div>
+    <span>
+     © 2022 Women on Waves
+    </span>
+   </footer>
+  </div>
+  <script src="/lib-min/js/apps/jquery-latest.min~/js/modules/jquery.ui.touch-punch.min~1190990036.js" type="text/javascript">
+  </script>
+  <script src="/lib-min/js/modules/jstz.min~/cotonic/cotonic~/js/apps/zotonic-wired~z.widgetmanager~/js/modules/z.notice~z.dialog~z.clickable~livevalidation-1.3~jquery.loadmask~pregcalc~creditcard~z.qadialog~/bootstrap/js/bootstrap.min~3297799336.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   cotonic.ready.then(function() { cotonic.spawn_named("auth", "/lib/js/zotonic.auth.worker~154011698.js", "/lib/cotonic/cotonic-worker~156502067.js",{"auth":{"is_authenticated":false,"options":{},"preferences":{"language":"en","timezone":"UTC"},"status":"ok","user_id":null,"username":null}});});
+  </script>
+  <script type="text/javascript">
+   $(function() {
+    var lastScrollTop = 0;
+    var isScrolledDown = false;
+
+    window.onscroll = function() {
+      var scrollTop = $(document).scrollTop();
+      if (scrollTop > lastScrollTop) {
+        if (!isScrolledDown && scrollTop > 50) {
+          $('body').addClass('scrolled-down');
+          isScrolledDown = true;
+        }
+      } else if (isScrolledDown) {
+        $('body').removeClass('scrolled-down');
+        isScrolledDown = false;
+      }
+      lastScrollTop = scrollTop;
+    }
+  });
+
+  $('body').on('click', '#zmodal a', function(e) {
+    if ($('body').hasClass('survey-question')) {
+      var href = $(this).attr('href') || '#';
+      if (!href.match(/^#/)) {
+        $(this).attr('target', '_blank');
+      }
+    }
+  });
+  </script>
+  <script type="text/javascript">
+   $(function()
+    {
+        $.widgetManager();
+    });
+  </script>
+  <script type="text/javascript">
+   window.zotonicPageInit = function() {
+
+$("#uE9GLJCPWMCE-share").on('click', function(event) { z_queue_postback('uE9GLJCPWMCE-share', 'uI-qL_A4EVP6SZnjFVfOuhY_uSqDaAVkAAVjbGlja20AAAASdUU5R0xKQ1BXTUNFLXNoYXJlbQAAABJ1RTlHTEpDUFdNQ0Utc2hhcmVoAmQABmRpYWxvZ2wAAAADaAJkAAV0aXRsZW0AAAAPU2hhcmUgdGhpcyBwYWdlaAJkAAh0ZW1wbGF0ZW0AAAAhcGFnZS1wYXJ0cy9fZGlhbG9nX3NoYXJlX3BhZ2UudHBsaAJkAAJpZGIAAAsgamQAGGFjdGlvbl93aXJlc19kaWFsb2dfb3Blbg', typeof(zEvtArgs) != 'undefined' ? zEvtArgs : undefined); return z_opt_cancel(this); } );
+
+$("#u7QWUOS9YX2C-share").on('click', function(event) { z_queue_postback('u7QWUOS9YX2C-share', 'vs5_gE4VEgstcvpDjnu6OAKd-ueDaAVkAAVjbGlja20AAAASdTdRV1VPUzlZWDJDLXNoYXJlbQAAABJ1N1FXVU9TOVlYMkMtc2hhcmVoAmQABmRpYWxvZ2wAAAADaAJkAAV0aXRsZW0AAAAPU2hhcmUgdGhpcyBwYWdlaAJkAAh0ZW1wbGF0ZW0AAAAhcGFnZS1wYXJ0cy9fZGlhbG9nX3NoYXJlX3BhZ2UudHBsaAJkAAJpZGIAAAsgamQAGGFjdGlvbl93aXJlc19kaWFsb2dfb3Blbg', typeof(zEvtArgs) != 'undefined' ? zEvtArgs : undefined); return z_opt_cancel(this); } );
+z_language="en";z_init_postback_forms();
+z_default_form_postback = "F50s-70lqDbdXfwsFcxX_spJ0OqDaAVtAAAABnN1Ym1pdGQACXVuZGVmaW5lZGQACXVuZGVmaW5lZG0AAAAAZAAPY29udHJvbGxlcl9wYWdl";
+};
+  </script>
+ </body>
+</html>
+
+[
+  {
+    "name": "Afghanistan",
+    "link": "/en/page/2808/afghanistan",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Albania",
+    "link": "/en/page/3221/albania",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Algeria",
+    "link": "/en/page/3198/algeria",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Angola",
+    "link": "/en/page/2752/angola",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Argentina",
+    "link": "/en/page/2802/argentina",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Armenia",
+    "link": "/en/page/3223/armenia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Aruba",
+    "link": "/en/page/4587/aruba",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Australia",
+    "link": "/en/page/3242/australia",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Austria",
+    "link": "/en/page/3222/austria",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Azerbaijan",
+    "link": "/en/page/4276/azerbaijan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Bahrain",
+    "link": "/en/page/3122/bahrain",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Bangladesh",
+    "link": "/en/page/3191/bangladesh",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Barbados",
+    "link": "/en/page/4749/barbados",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Belarus",
+    "link": "/en/page/4251/belarus",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Belgium",
+    "link": "/en/page/3224/belgium",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Belize",
+    "link": "/en/page/4590/belize",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Benin",
+    "link": "/en/page/3174/benin",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Bhutan",
+    "link": "/en/page/4281/bhutan",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Bolivia",
+    "link": "/en/page/2748/bolivia",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Bosnia-Herzegovina",
+    "link": "/en/page/4235/bosnia-herzegovina",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Botswana",
+    "link": "/en/page/2753/botswana",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Brazil",
+    "link": "/en/page/2812/brazil",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "British Virgin Islands",
+    "link": "/en/page/5305/british-virgin-islands",
+    "color": null
+  },
+  {
+    "name": "Bulgaria",
+    "link": "/en/page/3225/bulgaria",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Burkina Faso",
+    "link": "/en/page/3175/burkina-faso",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Burundi",
+    "link": "/en/page/3179/burundi",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Cambodia",
+    "link": "/en/page/2728/cambodia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Cameroon",
+    "link": "/en/page/2756/cameroon",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Canada",
+    "link": "/en/page/3183/canada",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Cape Verde",
+    "link": "/en/page/7608/cape-verde",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Central African Republic",
+    "link": "/en/page/3201/central-african-republic",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Chad",
+    "link": "/en/page/3200/chad",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Chile",
+    "link": "/en/page/2804/chile",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "China",
+    "link": "/en/page/3184/china",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Colombia",
+    "link": "/en/page/2746/colombia",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Congo",
+    "link": "/en/page/3212/congo",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Costa Rica",
+    "link": "/en/page/4293/costa-rica",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Cote d'Ivoire",
+    "link": "/en/page/3211/cote-d-ivoire",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Croatia",
+    "link": "/en/page/4236/croatia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Cuba",
+    "link": "/en/page/4596/cuba",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Curacao",
+    "link": "/en/page/5072/curacao",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Cyprus",
+    "link": "/en/page/3227/cyprus",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Czech Republic",
+    "link": "/en/page/3226/czech-republic",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Denmark",
+    "link": "/en/page/4248/denmark",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Djibouti",
+    "link": "/en/page/3228/djibouti",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Dominican Republic",
+    "link": "/en/page/3172/dominican-republic",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "DRC Congo",
+    "link": "/en/page/2760/drc-congo",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "East Timor",
+    "link": "/en/page/2722/east-timor",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Ecuador",
+    "link": "/en/page/1977/ecuador",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Egypt",
+    "link": "/en/page/3108/egypt",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "El Salvador",
+    "link": "/en/page/2745/el-salvador",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "link": "/en/page/3216/equatorial-guinea",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Eritrea",
+    "link": "/en/page/3204/eritrea",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Estonia",
+    "link": "/en/page/4265/estonia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Ethiopia",
+    "link": "/en/page/2765/ethiopia",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Finland",
+    "link": "/en/page/4271/finland",
+    "color": "color: #331575"
+  },
+  {
+    "name": "France",
+    "link": "/en/page/4227/france",
+    "color": "color: #331575"
+  },
+  {
+    "name": "French Guiana",
+    "link": "/en/page/3218/french-guiana",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Gabon",
+    "link": "/en/page/3207/gabon",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Gambia",
+    "link": "/en/page/2767/gambia",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Georgia",
+    "link": "/en/page/4274/georgia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Germany",
+    "link": "/en/page/4232/germany",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Ghana",
+    "link": "/en/page/2768/ghana",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Greece",
+    "link": "/en/page/4233/greece",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Greenland",
+    "link": "/en/page/3192/greenland",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Guadeloupe",
+    "link": "/en/page/6800/guadeloupe",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Guatemala",
+    "link": "/en/page/3159/guatemala",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Guernsey",
+    "link": "/en/page/6434/guernsey",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Guinea",
+    "link": "/en/page/3177/guinea",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Guinea Bissau",
+    "link": "/en/page/3214/guinea-bissau",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Guyana",
+    "link": "/en/page/3217/guyana",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Haiti",
+    "link": "/en/page/4294/haiti",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Honduras",
+    "link": "/en/page/3170/honduras",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Hong Kong",
+    "link": "/en/page/5057/hong-kong",
+    "color": null
+  },
+  {
+    "name": "Hungary",
+    "link": "/en/page/4239/hungary",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Iceland",
+    "link": "/en/page/4225/iceland",
+    "color": "color: #331575"
+  },
+  {
+    "name": "India",
+    "link": "/en/page/2731/india",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Indonesia",
+    "link": "/en/page/3193/indonesia",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Iran",
+    "link": "/en/page/3112/iran",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Iraq",
+    "link": "/en/page/3111/iraq",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Ireland",
+    "link": "/en/page/5551/ireland",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Isle of Man",
+    "link": "/en/page/6435/isle-of-man",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Israel",
+    "link": "/en/page/4280/israel",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Italy",
+    "link": "/en/page/4230/italy",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Jamaica",
+    "link": "/en/page/5198/jamaica",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Japan",
+    "link": "/en/page/4289/japan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Jersey - Bailiwick of Jersey",
+    "link": "/en/page/6433/jersey---bailiwick-of-jersey",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Jordan",
+    "link": "/en/page/3115/jordan",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Kazakhstan",
+    "link": "/en/page/3187/kazakhstan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Kenya",
+    "link": "/en/page/2772/kenya",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Kosovo",
+    "link": "/en/page/6100/kosovo",
+    "color": "color: #000000"
+  },
+  {
+    "name": "Kuwait",
+    "link": "/en/page/3123/kuwait",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "link": "/en/page/4278/kyrgyzstan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Laos",
+    "link": "/en/page/4282/laos",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Latvia",
+    "link": "/en/page/4263/latvia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Lebanon",
+    "link": "/en/page/3114/lebanon",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Lesotho",
+    "link": "/en/page/3203/lesotho",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Liberia",
+    "link": "/en/page/3208/liberia",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Libya",
+    "link": "/en/page/3199/libya",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Lithuania",
+    "link": "/en/page/4256/lithuania",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Luxembourg",
+    "link": "/en/page/4342/luxembourg",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Macedonia",
+    "link": "/en/page/4234/macedonia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Madagascar",
+    "link": "/en/page/3189/madagascar",
+    "color": "color: #000000"
+  },
+  {
+    "name": "Madagascar",
+    "link": "/en/page/2776/madagascar",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Malawi",
+    "link": "/en/page/3180/malawi",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Malaysia",
+    "link": "/en/page/4287/malaysia",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Mali",
+    "link": "/en/page/3178/mali",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Malta",
+    "link": "/en/page/4343/malta",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Martinique",
+    "link": "/en/page/6802/martinique",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Mauritania",
+    "link": "/en/page/3173/mauritania",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Mauritius",
+    "link": "/en/page/6101/mauritius",
+    "color": null
+  },
+  {
+    "name": "Mayotte",
+    "link": "/en/page/6804/mayotte",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Mexico",
+    "link": "/en/page/3106/mexico",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Moldova",
+    "link": "/en/page/4245/moldova",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Mongolia",
+    "link": "/en/page/3186/mongolia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Montenegro",
+    "link": "/en/page/6505/montenegro",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Morocco",
+    "link": "/en/page/3107/morocco",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Mozambique",
+    "link": "/en/page/2777/mozambique",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Myanmar",
+    "link": "/en/page/2727/myanmar",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Namibia",
+    "link": "/en/page/2778/namibia",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Nepal",
+    "link": "/en/page/2726/nepal",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Netherlands Antilles",
+    "link": "/en/page/5084/netherlands-antilles",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "New Zealand",
+    "link": "/en/page/4569/new-zealand",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Nicaragua",
+    "link": "/en/page/3169/nicaragua",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Niger",
+    "link": "/en/page/2779/niger",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Nigeria",
+    "link": "/en/page/2780/nigeria",
+    "color": "color: #fe7d18"
+  },
+  {
+    "name": "Northern Ireland",
+    "link": "/en/page/5390/northern-ireland",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "link": "/en/page/7042/northern-mariana-islands",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "North Korea",
+    "link": "/en/page/4290/north-korea",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Norway",
+    "link": "/en/page/4273/norway",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Oman",
+    "link": "/en/page/3124/oman",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Pakistan",
+    "link": "/en/page/2733/pakistan",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Palestine",
+    "link": "/en/page/4552/palestine",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Panama",
+    "link": "/en/page/3158/panama",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Papua New Guinea",
+    "link": "/en/page/4288/papua-new-guinea",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Paraguay",
+    "link": "/en/page/4292/paraguay",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Peru",
+    "link": "/en/page/3160/peru",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Phillipines",
+    "link": "/en/page/2723/phillipines",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Poland",
+    "link": "/en/page/4243/poland",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Portugal",
+    "link": "/en/page/4229/portugal",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Qatar",
+    "link": "/en/page/3125/qatar",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Reunion",
+    "link": "/en/page/6805/reunion",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Romania",
+    "link": "/en/page/4238/romania",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Russian Federation",
+    "link": "/en/page/3185/russian-federation",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Rwanda",
+    "link": "/en/page/2781/rwanda",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Samoa",
+    "link": "/en/page/4572/samoa",
+    "color": "color: #000000"
+  },
+  {
+    "name": "Saudi Arabia",
+    "link": "/en/page/3120/saudi-arabia",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Senegal",
+    "link": "/en/page/3176/senegal",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Serbia",
+    "link": "/en/page/6047/serbia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Sierra Leone",
+    "link": "/en/page/2785/sierra-leone",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Singapore",
+    "link": "/en/page/4742/singapore",
+    "color": null
+  },
+  {
+    "name": "Sint Maarten",
+    "link": "/en/page/5552/sint-maarten",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Slovakia",
+    "link": "/en/page/4244/slovakia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Slovenia",
+    "link": "/en/page/4237/slovenia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Somalia",
+    "link": "/en/page/2786/somalia",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Somaliland",
+    "link": "/en/page/2787/somaliland",
+    "color": null
+  },
+  {
+    "name": "South Africa",
+    "link": "/en/page/2788/south-africa",
+    "color": "color: #331575"
+  },
+  {
+    "name": "South Korea",
+    "link": "/en/page/3244/south-korea",
+    "color": "color: #2c1376"
+  },
+  {
+    "name": "South Sudan",
+    "link": "/en/page/5413/south-sudan",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Spain",
+    "link": "/en/page/4228/spain",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Sri Lanka",
+    "link": "/en/page/2725/sri-lanka",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Sudan",
+    "link": "/en/page/2789/sudan",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Suriname",
+    "link": "/en/page/3171/suriname",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Svalbard and Jan Mayen Islands",
+    "link": "/en/page/4295/svalbard-and-jan-mayen-islands",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Swaziland",
+    "link": "/en/page/3215/swaziland",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Sweden",
+    "link": "/en/page/4272/sweden",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Switzerland",
+    "link": "/en/page/4231/switzerland",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Syria",
+    "link": "/en/page/5481/syria",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Taiwan",
+    "link": "/en/page/4283/taiwan",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Tajikistan",
+    "link": "/en/page/4279/tajikistan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Tanzania",
+    "link": "/en/page/2792/tanzania",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Thailand",
+    "link": "/en/page/2732/thailand",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "The Netherlands",
+    "link": "/en/page/4247/the-netherlands",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Togo",
+    "link": "/en/page/3205/togo",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Tunisia",
+    "link": "/en/page/2794/tunisia",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Turkey",
+    "link": "/en/page/3196/turkey",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Turkmenistan",
+    "link": "/en/page/4275/turkmenistan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "U.A.E.",
+    "link": "/en/page/3126/u-a-e",
+    "color": "color: #FF0080"
+  },
+  {
+    "name": "Uganda",
+    "link": "/en/page/2795/uganda",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Ukraine",
+    "link": "/en/page/4246/ukraine",
+    "color": "color: #331575"
+  },
+  {
+    "name": "United Kingdom",
+    "link": "/en/page/4226/united-kingdom",
+    "color": "color: #331575"
+  },
+  {
+    "name": "United States of America",
+    "link": "/en/page/3181/united-states-of-america",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Uruguay",
+    "link": "/en/page/3167/uruguay",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Uzbekistan",
+    "link": "/en/page/4277/uzbekistan",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Venezuela",
+    "link": "/en/page/3168/venezuela",
+    "color": "color: #ff0066"
+  },
+  {
+    "name": "Vietnam",
+    "link": "/en/page/2729/vietnam",
+    "color": "color: #331575"
+  },
+  {
+    "name": "Western Sahara",
+    "link": "/en/page/3202/western-sahara",
+    "color": "color: #FF0066"
+  },
+  {
+    "name": "Yemen",
+    "link": "/en/page/3121/yemen",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Zambia",
+    "link": "/en/page/2796/zambia",
+    "color": "color: #FE7D18"
+  },
+  {
+    "name": "Zimbabwe",
+    "link": "/en/page/2797/zimbabwe",
+    "color": "color: #FE7D18"
+  }
+]
