@@ -1,6 +1,7 @@
 # Women on Waves Abortion Access Map
 
 A basic interactive map visualizing data found here: https://www.womenonwaves.org/en/map/country
+![map](assets/map.png)
 
 > Women on Waves aims to prevent unsafe abortions and empower women to exercise their human rights to physical and mental autonomy. We trust that women can do a medical abortion themselves and make sure that women have access to medical abortion and information through innovative strategies. But ultimately it is about giving women the tools to resist repressive cultures and laws.
 
