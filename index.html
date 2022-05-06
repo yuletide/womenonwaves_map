@@ -39,6 +39,21 @@
 </div>
 
 <script>
+  const countryNameMap = {
+    'Bosnia-Herzegovina': 'Bosnia and Herzegovina',
+    "Cote d'Ivoire": 'Ivory Coast',
+    'DRC Congo': 'Democratic Republic of the Congo',
+    Congo: 'Republic of the Congo',
+    Palestine: 'West Bank',
+    Phillipines: 'Philippines',
+    'Russian Federation': 'Russia',
+    Serbia: 'Republic of Serbia',
+    Tanzania: 'United Republic of Tanzania',
+    'The Netherlands': 'Netherlands',
+    'U.A.E.': 'United Arab Emirates',
+    'United Kingdom': 'England',
+    'United States of America': 'USA',
+  };
   // const geojson ='https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
   const geojson = './world.geojson';
   const csv = './countries.csv';
@@ -73,6 +88,9 @@
     d3.csv(csv, function (d) {
       // data.set(d.code, +d.pop);
       // data.set(d.code, { color: d.color, link: d.link });
+      if (d.name in countryNameMap) {
+        d.name = countryNameMap[d.name];
+      }
       data.set(d.name, { color: d.color, link: d.link });
     }),
   ]).then(function (loadData) {
@@ -102,9 +120,14 @@
 
     let onClick = function (d) {
       // somehow get the link and do something with it
-      const link = `https://www.womenonwaves.org${d.srcElement.__data__.data.link}`;
-      console.log(link);
-      window.open(link, '_blank');
+      const linkFragment = d.srcElement.__data__.data.link;
+      if (linkFragment) {
+        const link = linkFragment
+          ? `https://www.womenonwaves.org${linkFragment}`
+          : '';
+        console.log(link);
+        window.open(link, '_blank');
+      }
     };
 
     // Draw the map
