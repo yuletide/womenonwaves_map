@@ -29,7 +29,8 @@
   // Map and projection
   const path = d3.geoPath();
   const projection = d3
-    .geoNaturalEarth2()
+    // .geoNaturalEarth2()
+    .geoWinkel3()
     // .scale(90)
     .center([0, 20])
     .translate([width / 2, height / 2]);
