@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <meta charset="utf-8" />
 
+<!-- https://d3-graph-gallery.com/graph/choropleth_hover_effect.html -->
 <!-- Load d3.js -->
 <script src="https://d3js.org/d3.v6.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-zoom@3"></script>
 <!-- <script type="module">
 
   import {geoAitoff} from "https://cdn.skypack.dev/d3-geo-projection@4";
@@ -52,6 +55,8 @@
       data.set(d.name, { color: d.color, link: d.link });
     }),
   ]).then(function (loadData) {
+    const zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
+
     let topo = loadData[0];
 
     let mouseOver = function (d) {
@@ -76,9 +81,9 @@
     };
 
     // Draw the map
-    svg
-      .append('g')
-      .selectAll('path')
+    const g = svg.append('g');
+
+    g.selectAll('path')
       .data(topo.features)
       .enter()
       .append('path')
@@ -104,5 +109,13 @@
       .on('mouseover', mouseOver)
       .on('mouseleave', mouseLeave)
       .on('click', onClick);
+
+    svg.call(zoom);
+
+    function zoomed(event) {
+      const { transform } = event;
+      g.attr('transform', transform);
+      g.attr('stroke-width', 1 / transform.k);
+    }
   });
 </script>
