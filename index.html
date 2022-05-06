@@ -64,7 +64,7 @@
 
     let mouseLeave = function (d) {
       d3.selectAll('.Country').transition().duration(200).style('opacity', 0.8);
-      d3.select(this).transition().duration(200).style('stroke', 'transparent');
+      d3.select(this).transition().duration(200).style('stroke', 'none');
     };
 
     let onClick = function (d) {

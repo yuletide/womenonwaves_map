@@ -1,6 +1,6 @@
 name,link,color,code
-Afghanistan,/en/page/2808/afghanistan,#FF0066,AFG
-Albania,/en/page/3221/albania,#331575,ALB
+Afghanistan,/en/page/2808/afghanistan,#FF0066
+Albania,/en/page/3221/albania,#331575
 Algeria,/en/page/3198/algeria,#FF0066
 Angola,/en/page/2752/angola,#FF0066
 Argentina,/en/page/2802/argentina,#331575
@@ -34,9 +34,9 @@ Chad,/en/page/3200/chad,#FF0066
 Chile,/en/page/2804/chile,#ff0066
 China,/en/page/3184/china,#331575
 Colombia,/en/page/2746/colombia,#fe7d18
-Congo,/en/page/3212/congo,#FF0066
+Republic of the Congo,/en/page/3212/congo,#FF0066
 Costa Rica,/en/page/4293/costa-rica,#FF0066
-Cote d'Ivoire,/en/page/3211/cote-d-ivoire,#FF0066
+Ivory Coast,/en/page/3211/cote-d-ivoire,#FF0066
 Croatia,/en/page/4236/croatia,#331575
 Cuba,/en/page/4596/cuba,#331575
 Curacao,/en/page/5072/curacao,#331575
@@ -45,7 +45,7 @@ Czech Republic,/en/page/3226/czech-republic,#331575
 Denmark,/en/page/4248/denmark,#331575
 Djibouti,/en/page/3228/djibouti,#FF0066
 Dominican Republic,/en/page/3172/dominican-republic,#FF0066
-DRC Congo,/en/page/2760/drc-congo,#ff0066
+Democratic Republic of the Congo,/en/page/2760/drc-congo,#ff0066
 East Timor,/en/page/2722/east-timor,#FF0066
 Ecuador,/en/page/1977/ecuador,#FF0066
 Egypt,/en/page/3108/egypt,#ff0066
@@ -136,13 +136,13 @@ Panama,/en/page/3158/panama,#FF0066
 Papua New Guinea,/en/page/4288/papua-new-guinea,#ff0066
 Paraguay,/en/page/4292/paraguay,#ff0066
 Peru,/en/page/3160/peru,#FE7D18
-Phillipines,/en/page/2723/phillipines,#FF0066
+Philippines,/en/page/2723/phillipines,#FF0066
 Poland,/en/page/4243/poland,#ff0066
 Portugal,/en/page/4229/portugal,#331575
 Qatar,/en/page/3125/qatar,#FF0066
 Reunion,/en/page/6805/reunion,#331575
 Romania,/en/page/4238/romania,#331575
-Russian Federation,/en/page/3185/russian-federation,#331575
+Russia,/en/page/3185/russian-federation,#331575
 Rwanda,/en/page/2781/rwanda,#FF0066
 Samoa,/en/page/4572/samoa,#000000
 Saudi Arabia,/en/page/3120/saudi-arabia,#FF0066
@@ -169,18 +169,18 @@ Switzerland,/en/page/4231/switzerland,#331575
 Syria,/en/page/5481/syria,#FF0066
 Taiwan,/en/page/4283/taiwan,#FE7D18
 Tajikistan,/en/page/4279/tajikistan,#331575
-Tanzania,/en/page/2792/tanzania,#FE7D18
+United Republic of Tanzania,/en/page/2792/tanzania,#FE7D18
 Thailand,/en/page/2732/thailand,#ff0066
 The Netherlands,/en/page/4247/the-netherlands,#331575
 Togo,/en/page/3205/togo,#ff0066
 Tunisia,/en/page/2794/tunisia,#331575
 Turkey,/en/page/3196/turkey,#331575
 Turkmenistan,/en/page/4275/turkmenistan,#331575
-U.A.E.,/en/page/3126/u-a-e,#FF0080
+United Arab Emirates,/en/page/3126/u-a-e,#FF0080
 Uganda,/en/page/2795/uganda,#FE7D18
 Ukraine,/en/page/4246/ukraine,#331575
-United Kingdom,/en/page/4226/united-kingdom,#331575
-United States of America,/en/page/3181/united-states-of-america,#331575,USA
+England,/en/page/4226/united-kingdom,#331575
+USA,/en/page/3181/united-states-of-america,#331575
 Uruguay,/en/page/3167/uruguay,#331575
 Uzbekistan,/en/page/4277/uzbekistan,#331575
 Venezuela,/en/page/3168/venezuela,#ff0066
