@@ -1,5 +1,6 @@
 import requests
 import json
+import csv
 # import lxml.html
 from bs4 import BeautifulSoup
 
@@ -21,6 +22,21 @@ for country in soup.find_all("div", class_="list-item-country"):
   country_obj['link'] = link.get("href")
   country_obj['color'] = link.get("style")
   countries.append(country_obj)
+
+count = 0
+with open('countries.csv', 'w') as csv_file:
+  csv_writer = csv.writer(csv_file)
+  for country in countries:
+    if count == 0:
+      csv_writer.writerow(country)
+ 
+        # Writing headers of CSV file
+        # header = emp.keys()
+        # csv_writer.writerow(header)
+      count += 1
+    csv_writer.writerow(country.values())
+ 
+    # Writing data of CSV file
 
 print(json.dumps(countries, indent=2))
 # print(countries)
