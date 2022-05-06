@@ -1,191 +1,191 @@
-name,link,color
-Afghanistan,/en/page/2808/afghanistan,color: #FF0066
-Albania,/en/page/3221/albania,color: #331575
-Algeria,/en/page/3198/algeria,color: #FF0066
-Angola,/en/page/2752/angola,color: #FF0066
-Argentina,/en/page/2802/argentina,color: #331575
-Armenia,/en/page/3223/armenia,color: #331575
-Aruba,/en/page/4587/aruba,color: #ff0066
-Australia,/en/page/3242/australia,color: #fe7d18
-Austria,/en/page/3222/austria,color: #331575
-Azerbaijan,/en/page/4276/azerbaijan,color: #331575
-Bahrain,/en/page/3122/bahrain,color: #ff0066
-Bangladesh,/en/page/3191/bangladesh,color: #FE7D18
-Barbados,/en/page/4749/barbados,color: #331575
-Belarus,/en/page/4251/belarus,color: #331575
-Belgium,/en/page/3224/belgium,color: #331575
-Belize,/en/page/4590/belize,color: #FE7D18
-Benin,/en/page/3174/benin,color: #fe7d18
-Bhutan,/en/page/4281/bhutan,color: #FF0066
-Bolivia,/en/page/2748/bolivia,color: #FF0066
-Bosnia-Herzegovina,/en/page/4235/bosnia-herzegovina,color: #331575
-Botswana,/en/page/2753/botswana,color: #FF0066
-Brazil,/en/page/2812/brazil,color: #ff0066
+name,link,color,code
+Afghanistan,/en/page/2808/afghanistan,#FF0066,AFG
+Albania,/en/page/3221/albania,#331575,ALB
+Algeria,/en/page/3198/algeria,#FF0066
+Angola,/en/page/2752/angola,#FF0066
+Argentina,/en/page/2802/argentina,#331575
+Armenia,/en/page/3223/armenia,#331575
+Aruba,/en/page/4587/aruba,#ff0066
+Australia,/en/page/3242/australia,#fe7d18
+Austria,/en/page/3222/austria,#331575
+Azerbaijan,/en/page/4276/azerbaijan,#331575
+Bahrain,/en/page/3122/bahrain,#ff0066
+Bangladesh,/en/page/3191/bangladesh,#FE7D18
+Barbados,/en/page/4749/barbados,#331575
+Belarus,/en/page/4251/belarus,#331575
+Belgium,/en/page/3224/belgium,#331575
+Belize,/en/page/4590/belize,#FE7D18
+Benin,/en/page/3174/benin,#fe7d18
+Bhutan,/en/page/4281/bhutan,#FF0066
+Bolivia,/en/page/2748/bolivia,#FF0066
+Bosnia-Herzegovina,/en/page/4235/bosnia-herzegovina,#331575
+Botswana,/en/page/2753/botswana,#FF0066
+Brazil,/en/page/2812/brazil,#ff0066
 British Virgin Islands,/en/page/5305/british-virgin-islands,
-Bulgaria,/en/page/3225/bulgaria,color: #331575
-Burkina Faso,/en/page/3175/burkina-faso,color: #FF0066
-Burundi,/en/page/3179/burundi,color: #FF0066
-Cambodia,/en/page/2728/cambodia,color: #331575
-Cameroon,/en/page/2756/cameroon,color: #FE7D18
-Canada,/en/page/3183/canada,color: #331575
-Cape Verde,/en/page/7608/cape-verde,color: #331575
-Central African Republic,/en/page/3201/central-african-republic,color: #ff0066
-Chad,/en/page/3200/chad,color: #FF0066
-Chile,/en/page/2804/chile,color: #ff0066
-China,/en/page/3184/china,color: #331575
-Colombia,/en/page/2746/colombia,color: #fe7d18
-Congo,/en/page/3212/congo,color: #FF0066
-Costa Rica,/en/page/4293/costa-rica,color: #FF0066
-Cote d'Ivoire,/en/page/3211/cote-d-ivoire,color: #FF0066
-Croatia,/en/page/4236/croatia,color: #331575
-Cuba,/en/page/4596/cuba,color: #331575
-Curacao,/en/page/5072/curacao,color: #331575
-Cyprus,/en/page/3227/cyprus,color: #331575
-Czech Republic,/en/page/3226/czech-republic,color: #331575
-Denmark,/en/page/4248/denmark,color: #331575
-Djibouti,/en/page/3228/djibouti,color: #FF0066
-Dominican Republic,/en/page/3172/dominican-republic,color: #FF0066
-DRC Congo,/en/page/2760/drc-congo,color: #ff0066
-East Timor,/en/page/2722/east-timor,color: #FF0066
-Ecuador,/en/page/1977/ecuador,color: #FF0066
-Egypt,/en/page/3108/egypt,color: #ff0066
-El Salvador,/en/page/2745/el-salvador,color: #FF0066
-Equatorial Guinea,/en/page/3216/equatorial-guinea,color: #FF0066
-Eritrea,/en/page/3204/eritrea,color: #FF0066
-Estonia,/en/page/4265/estonia,color: #331575
-Ethiopia,/en/page/2765/ethiopia,color: #FE7D18
-Finland,/en/page/4271/finland,color: #331575
-France,/en/page/4227/france,color: #331575
-French Guiana,/en/page/3218/french-guiana,color: #331575
-Gabon,/en/page/3207/gabon,color: #FF0066
-Gambia,/en/page/2767/gambia,color: #FF0066
-Georgia,/en/page/4274/georgia,color: #331575
-Germany,/en/page/4232/germany,color: #331575
-Ghana,/en/page/2768/ghana,color: #FE7D18
-Greece,/en/page/4233/greece,color: #331575
-Greenland,/en/page/3192/greenland,color: #331575
-Guadeloupe,/en/page/6800/guadeloupe,color: #331575
-Guatemala,/en/page/3159/guatemala,color: #fe7d18
-Guernsey,/en/page/6434/guernsey,color: #331575
-Guinea,/en/page/3177/guinea,color: #FF0066
-Guinea Bissau,/en/page/3214/guinea-bissau,color: #FF0066
-Guyana,/en/page/3217/guyana,color: #331575
-Haiti,/en/page/4294/haiti,color: #ff0066
-Honduras,/en/page/3170/honduras,color: #ff0066
+Bulgaria,/en/page/3225/bulgaria,#331575
+Burkina Faso,/en/page/3175/burkina-faso,#FF0066
+Burundi,/en/page/3179/burundi,#FF0066
+Cambodia,/en/page/2728/cambodia,#331575
+Cameroon,/en/page/2756/cameroon,#FE7D18
+Canada,/en/page/3183/canada,#331575
+Cape Verde,/en/page/7608/cape-verde,#331575
+Central African Republic,/en/page/3201/central-african-republic,#ff0066
+Chad,/en/page/3200/chad,#FF0066
+Chile,/en/page/2804/chile,#ff0066
+China,/en/page/3184/china,#331575
+Colombia,/en/page/2746/colombia,#fe7d18
+Congo,/en/page/3212/congo,#FF0066
+Costa Rica,/en/page/4293/costa-rica,#FF0066
+Cote d'Ivoire,/en/page/3211/cote-d-ivoire,#FF0066
+Croatia,/en/page/4236/croatia,#331575
+Cuba,/en/page/4596/cuba,#331575
+Curacao,/en/page/5072/curacao,#331575
+Cyprus,/en/page/3227/cyprus,#331575
+Czech Republic,/en/page/3226/czech-republic,#331575
+Denmark,/en/page/4248/denmark,#331575
+Djibouti,/en/page/3228/djibouti,#FF0066
+Dominican Republic,/en/page/3172/dominican-republic,#FF0066
+DRC Congo,/en/page/2760/drc-congo,#ff0066
+East Timor,/en/page/2722/east-timor,#FF0066
+Ecuador,/en/page/1977/ecuador,#FF0066
+Egypt,/en/page/3108/egypt,#ff0066
+El Salvador,/en/page/2745/el-salvador,#FF0066
+Equatorial Guinea,/en/page/3216/equatorial-guinea,#FF0066
+Eritrea,/en/page/3204/eritrea,#FF0066
+Estonia,/en/page/4265/estonia,#331575
+Ethiopia,/en/page/2765/ethiopia,#FE7D18
+Finland,/en/page/4271/finland,#331575
+France,/en/page/4227/france,#331575
+French Guiana,/en/page/3218/french-guiana,#331575
+Gabon,/en/page/3207/gabon,#FF0066
+Gambia,/en/page/2767/gambia,#FF0066
+Georgia,/en/page/4274/georgia,#331575
+Germany,/en/page/4232/germany,#331575
+Ghana,/en/page/2768/ghana,#FE7D18
+Greece,/en/page/4233/greece,#331575
+Greenland,/en/page/3192/greenland,#331575
+Guadeloupe,/en/page/6800/guadeloupe,#331575
+Guatemala,/en/page/3159/guatemala,#fe7d18
+Guernsey,/en/page/6434/guernsey,#331575
+Guinea,/en/page/3177/guinea,#FF0066
+Guinea Bissau,/en/page/3214/guinea-bissau,#FF0066
+Guyana,/en/page/3217/guyana,#331575
+Haiti,/en/page/4294/haiti,#ff0066
+Honduras,/en/page/3170/honduras,#ff0066
 Hong Kong,/en/page/5057/hong-kong,
-Hungary,/en/page/4239/hungary,color: #331575
-Iceland,/en/page/4225/iceland,color: #331575
-India,/en/page/2731/india,color: #331575
-Indonesia,/en/page/3193/indonesia,color: #FE7D18
-Iran,/en/page/3112/iran,color: #fe7d18
-Iraq,/en/page/3111/iraq,color: #FF0066
-Ireland,/en/page/5551/ireland,color: #331575
-Isle of Man,/en/page/6435/isle-of-man,color: #FF0066
-Israel,/en/page/4280/israel,color: #FF0066
-Italy,/en/page/4230/italy,color: #331575
-Jamaica,/en/page/5198/jamaica,color: #FF0066
-Japan,/en/page/4289/japan,color: #331575
-Jersey - Bailiwick of Jersey,/en/page/6433/jersey---bailiwick-of-jersey,color: #331575
-Jordan,/en/page/3115/jordan,color: #ff0066
-Kazakhstan,/en/page/3187/kazakhstan,color: #331575
-Kenya,/en/page/2772/kenya,color: #FE7D18
-Kosovo,/en/page/6100/kosovo,color: #000000
-Kuwait,/en/page/3123/kuwait,color: #FF0066
-Kyrgyzstan,/en/page/4278/kyrgyzstan,color: #331575
-Laos,/en/page/4282/laos,color: #FF0066
-Latvia,/en/page/4263/latvia,color: #331575
-Lebanon,/en/page/3114/lebanon,color: #FE7D18
-Lesotho,/en/page/3203/lesotho,color: #ff0066
-Liberia,/en/page/3208/liberia,color: #FF0066
-Libya,/en/page/3199/libya,color: #FF0066
-Lithuania,/en/page/4256/lithuania,color: #331575
-Luxembourg,/en/page/4342/luxembourg,color: #331575
-Macedonia,/en/page/4234/macedonia,color: #331575
-Madagascar,/en/page/3189/madagascar,color: #000000
-Madagascar,/en/page/2776/madagascar,color: #ff0066
-Malawi,/en/page/3180/malawi,color: #FE7D18
-Malaysia,/en/page/4287/malaysia,color: #ff0066
-Mali,/en/page/3178/mali,color: #FE7D18
-Malta,/en/page/4343/malta,color: #ff0066
-Martinique,/en/page/6802/martinique,color: #331575
-Mauritania,/en/page/3173/mauritania,color: #ff0066
+Hungary,/en/page/4239/hungary,#331575
+Iceland,/en/page/4225/iceland,#331575
+India,/en/page/2731/india,#331575
+Indonesia,/en/page/3193/indonesia,#FE7D18
+Iran,/en/page/3112/iran,#fe7d18
+Iraq,/en/page/3111/iraq,#FF0066
+Ireland,/en/page/5551/ireland,#331575
+Isle of Man,/en/page/6435/isle-of-man,#FF0066
+Israel,/en/page/4280/israel,#FF0066
+Italy,/en/page/4230/italy,#331575
+Jamaica,/en/page/5198/jamaica,#FF0066
+Japan,/en/page/4289/japan,#331575
+Jersey - Bailiwick of Jersey,/en/page/6433/jersey---bailiwick-of-jersey,#331575
+Jordan,/en/page/3115/jordan,#ff0066
+Kazakhstan,/en/page/3187/kazakhstan,#331575
+Kenya,/en/page/2772/kenya,#FE7D18
+Kosovo,/en/page/6100/kosovo,#000000
+Kuwait,/en/page/3123/kuwait,#FF0066
+Kyrgyzstan,/en/page/4278/kyrgyzstan,#331575
+Laos,/en/page/4282/laos,#FF0066
+Latvia,/en/page/4263/latvia,#331575
+Lebanon,/en/page/3114/lebanon,#FE7D18
+Lesotho,/en/page/3203/lesotho,#ff0066
+Liberia,/en/page/3208/liberia,#FF0066
+Libya,/en/page/3199/libya,#FF0066
+Lithuania,/en/page/4256/lithuania,#331575
+Luxembourg,/en/page/4342/luxembourg,#331575
+Macedonia,/en/page/4234/macedonia,#331575
+Madagascar,/en/page/3189/madagascar,#000000
+Madagascar,/en/page/2776/madagascar,#ff0066
+Malawi,/en/page/3180/malawi,#FE7D18
+Malaysia,/en/page/4287/malaysia,#ff0066
+Mali,/en/page/3178/mali,#FE7D18
+Malta,/en/page/4343/malta,#ff0066
+Martinique,/en/page/6802/martinique,#331575
+Mauritania,/en/page/3173/mauritania,#ff0066
 Mauritius,/en/page/6101/mauritius,
-Mayotte,/en/page/6804/mayotte,color: #331575
-Mexico,/en/page/3106/mexico,color: #fe7d18
-Moldova,/en/page/4245/moldova,color: #331575
-Mongolia,/en/page/3186/mongolia,color: #331575
-Montenegro,/en/page/6505/montenegro,color: #331575
-Morocco,/en/page/3107/morocco,color: #FE7D18
-Mozambique,/en/page/2777/mozambique,color: #331575
-Myanmar,/en/page/2727/myanmar,color: #FE7D18
-Namibia,/en/page/2778/namibia,color: #fe7d18
-Nepal,/en/page/2726/nepal,color: #331575
-Netherlands Antilles,/en/page/5084/netherlands-antilles,color: #FE7D18
-New Zealand,/en/page/4569/new-zealand,color: #331575
-Nicaragua,/en/page/3169/nicaragua,color: #FF0066
-Niger,/en/page/2779/niger,color: #ff0066
-Nigeria,/en/page/2780/nigeria,color: #fe7d18
-Northern Ireland,/en/page/5390/northern-ireland,color: #FF0066
-Northern Mariana Islands,/en/page/7042/northern-mariana-islands,color: #FF0066
-North Korea,/en/page/4290/north-korea,color: #331575
-Norway,/en/page/4273/norway,color: #331575
-Oman,/en/page/3124/oman,color: #FF0066
-Pakistan,/en/page/2733/pakistan,color: #FE7D18
-Palestine,/en/page/4552/palestine,color: #FF0066
-Panama,/en/page/3158/panama,color: #FF0066
-Papua New Guinea,/en/page/4288/papua-new-guinea,color: #ff0066
-Paraguay,/en/page/4292/paraguay,color: #ff0066
-Peru,/en/page/3160/peru,color: #FE7D18
-Phillipines,/en/page/2723/phillipines,color: #FF0066
-Poland,/en/page/4243/poland,color: #ff0066
-Portugal,/en/page/4229/portugal,color: #331575
-Qatar,/en/page/3125/qatar,color: #FF0066
-Reunion,/en/page/6805/reunion,color: #331575
-Romania,/en/page/4238/romania,color: #331575
-Russian Federation,/en/page/3185/russian-federation,color: #331575
-Rwanda,/en/page/2781/rwanda,color: #FF0066
-Samoa,/en/page/4572/samoa,color: #000000
-Saudi Arabia,/en/page/3120/saudi-arabia,color: #FF0066
-Senegal,/en/page/3176/senegal,color: #FF0066
-Serbia,/en/page/6047/serbia,color: #331575
-Sierra Leone,/en/page/2785/sierra-leone,color: #FF0066
+Mayotte,/en/page/6804/mayotte,#331575
+Mexico,/en/page/3106/mexico,#fe7d18
+Moldova,/en/page/4245/moldova,#331575
+Mongolia,/en/page/3186/mongolia,#331575
+Montenegro,/en/page/6505/montenegro,#331575
+Morocco,/en/page/3107/morocco,#FE7D18
+Mozambique,/en/page/2777/mozambique,#331575
+Myanmar,/en/page/2727/myanmar,#FE7D18
+Namibia,/en/page/2778/namibia,#fe7d18
+Nepal,/en/page/2726/nepal,#331575
+Netherlands Antilles,/en/page/5084/netherlands-antilles,#FE7D18
+New Zealand,/en/page/4569/new-zealand,#331575
+Nicaragua,/en/page/3169/nicaragua,#FF0066
+Niger,/en/page/2779/niger,#ff0066
+Nigeria,/en/page/2780/nigeria,#fe7d18
+Northern Ireland,/en/page/5390/northern-ireland,#FF0066
+Northern Mariana Islands,/en/page/7042/northern-mariana-islands,#FF0066
+North Korea,/en/page/4290/north-korea,#331575
+Norway,/en/page/4273/norway,#331575
+Oman,/en/page/3124/oman,#FF0066
+Pakistan,/en/page/2733/pakistan,#FE7D18
+Palestine,/en/page/4552/palestine,#FF0066
+Panama,/en/page/3158/panama,#FF0066
+Papua New Guinea,/en/page/4288/papua-new-guinea,#ff0066
+Paraguay,/en/page/4292/paraguay,#ff0066
+Peru,/en/page/3160/peru,#FE7D18
+Phillipines,/en/page/2723/phillipines,#FF0066
+Poland,/en/page/4243/poland,#ff0066
+Portugal,/en/page/4229/portugal,#331575
+Qatar,/en/page/3125/qatar,#FF0066
+Reunion,/en/page/6805/reunion,#331575
+Romania,/en/page/4238/romania,#331575
+Russian Federation,/en/page/3185/russian-federation,#331575
+Rwanda,/en/page/2781/rwanda,#FF0066
+Samoa,/en/page/4572/samoa,#000000
+Saudi Arabia,/en/page/3120/saudi-arabia,#FF0066
+Senegal,/en/page/3176/senegal,#FF0066
+Serbia,/en/page/6047/serbia,#331575
+Sierra Leone,/en/page/2785/sierra-leone,#FF0066
 Singapore,/en/page/4742/singapore,
-Sint Maarten,/en/page/5552/sint-maarten,color: #331575
-Slovakia,/en/page/4244/slovakia,color: #331575
-Slovenia,/en/page/4237/slovenia,color: #331575
-Somalia,/en/page/2786/somalia,color: #ff0066
+Sint Maarten,/en/page/5552/sint-maarten,#331575
+Slovakia,/en/page/4244/slovakia,#331575
+Slovenia,/en/page/4237/slovenia,#331575
+Somalia,/en/page/2786/somalia,#ff0066
 Somaliland,/en/page/2787/somaliland,
-South Africa,/en/page/2788/south-africa,color: #331575
-South Korea,/en/page/3244/south-korea,color: #2c1376
-South Sudan,/en/page/5413/south-sudan,color: #ff0066
-Spain,/en/page/4228/spain,color: #331575
-Sri Lanka,/en/page/2725/sri-lanka,color: #FE7D18
-Sudan,/en/page/2789/sudan,color: #FF0066
-Suriname,/en/page/3171/suriname,color: #ff0066
-Svalbard and Jan Mayen Islands,/en/page/4295/svalbard-and-jan-mayen-islands,color: #331575
-Swaziland,/en/page/3215/swaziland,color: #FF0066
-Sweden,/en/page/4272/sweden,color: #331575
-Switzerland,/en/page/4231/switzerland,color: #331575
-Syria,/en/page/5481/syria,color: #FF0066
-Taiwan,/en/page/4283/taiwan,color: #FE7D18
-Tajikistan,/en/page/4279/tajikistan,color: #331575
-Tanzania,/en/page/2792/tanzania,color: #FE7D18
-Thailand,/en/page/2732/thailand,color: #ff0066
-The Netherlands,/en/page/4247/the-netherlands,color: #331575
-Togo,/en/page/3205/togo,color: #ff0066
-Tunisia,/en/page/2794/tunisia,color: #331575
-Turkey,/en/page/3196/turkey,color: #331575
-Turkmenistan,/en/page/4275/turkmenistan,color: #331575
-U.A.E.,/en/page/3126/u-a-e,color: #FF0080
-Uganda,/en/page/2795/uganda,color: #FE7D18
-Ukraine,/en/page/4246/ukraine,color: #331575
-United Kingdom,/en/page/4226/united-kingdom,color: #331575
-United States of America,/en/page/3181/united-states-of-america,color: #331575
-Uruguay,/en/page/3167/uruguay,color: #331575
-Uzbekistan,/en/page/4277/uzbekistan,color: #331575
-Venezuela,/en/page/3168/venezuela,color: #ff0066
-Vietnam,/en/page/2729/vietnam,color: #331575
-Western Sahara,/en/page/3202/western-sahara,color: #FF0066
-Yemen,/en/page/3121/yemen,color: #FE7D18
-Zambia,/en/page/2796/zambia,color: #FE7D18
-Zimbabwe,/en/page/2797/zimbabwe,color: #FE7D18
+South Africa,/en/page/2788/south-africa,#331575
+South Korea,/en/page/3244/south-korea,#2c1376
+South Sudan,/en/page/5413/south-sudan,#ff0066
+Spain,/en/page/4228/spain,#331575
+Sri Lanka,/en/page/2725/sri-lanka,#FE7D18
+Sudan,/en/page/2789/sudan,#FF0066
+Suriname,/en/page/3171/suriname,#ff0066
+Svalbard and Jan Mayen Islands,/en/page/4295/svalbard-and-jan-mayen-islands,#331575
+Swaziland,/en/page/3215/swaziland,#FF0066
+Sweden,/en/page/4272/sweden,#331575
+Switzerland,/en/page/4231/switzerland,#331575
+Syria,/en/page/5481/syria,#FF0066
+Taiwan,/en/page/4283/taiwan,#FE7D18
+Tajikistan,/en/page/4279/tajikistan,#331575
+Tanzania,/en/page/2792/tanzania,#FE7D18
+Thailand,/en/page/2732/thailand,#ff0066
+The Netherlands,/en/page/4247/the-netherlands,#331575
+Togo,/en/page/3205/togo,#ff0066
+Tunisia,/en/page/2794/tunisia,#331575
+Turkey,/en/page/3196/turkey,#331575
+Turkmenistan,/en/page/4275/turkmenistan,#331575
+U.A.E.,/en/page/3126/u-a-e,#FF0080
+Uganda,/en/page/2795/uganda,#FE7D18
+Ukraine,/en/page/4246/ukraine,#331575
+United Kingdom,/en/page/4226/united-kingdom,#331575
+United States of America,/en/page/3181/united-states-of-america,#331575,USA
+Uruguay,/en/page/3167/uruguay,#331575
+Uzbekistan,/en/page/4277/uzbekistan,#331575
+Venezuela,/en/page/3168/venezuela,#ff0066
+Vietnam,/en/page/2729/vietnam,#331575
+Western Sahara,/en/page/3202/western-sahara,#FF0066
+Yemen,/en/page/3121/yemen,#FE7D18
+Zambia,/en/page/2796/zambia,#FE7D18
+Zimbabwe,/en/page/2797/zimbabwe,#FE7D18

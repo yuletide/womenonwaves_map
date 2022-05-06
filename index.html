@@ -18,6 +18,8 @@
   const geojson =
     'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
   const csv = './countries.csv';
+  // const csv =
+  // 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world_population.csv';
 
   // The svg
   const svg = d3.select('svg'),
@@ -44,8 +46,8 @@
     d3.json(geojson),
 
     d3.csv(csv, function (d) {
-      console.log(d);
-      data.set(d.code, +d.pop);
+      // data.set(d.code, +d.pop);
+      data.set(d.code, { color: d.color, link: d.link });
     }),
   ]).then(function (loadData) {
     let topo = loadData[0];
@@ -64,6 +66,13 @@
       d3.select(this).transition().duration(200).style('stroke', 'transparent');
     };
 
+    let onClick = function (d) {
+      // somehow get the link and do something with it
+      const link = `https://www.womenonwaves.org${d.srcElement.__data__.data.link}`;
+      console.log(link);
+      window.open(link, '_blank');
+    };
+
     // Draw the map
     svg
       .append('g')
@@ -75,15 +84,22 @@
       .attr('d', d3.geoPath().projection(projection))
       // set the color of each country
       .attr('fill', function (d) {
-        d.total = data.get(d.id) || 0;
-        return colorScale(d.total);
+        // d.total = data.get(d.id) || 0;
+        d.data = data.get(d.id) || {};
+        console.log(d);
+        // return colorScale(d.total);
+        return d['data']['color'];
       })
       .style('stroke', 'transparent')
       .attr('class', function (d) {
         return 'Country';
       })
+      .attr('href', function (d) {
+        return d['data']['link'];
+      })
       .style('opacity', 0.8)
       .on('mouseover', mouseOver)
-      .on('mouseleave', mouseLeave);
+      .on('mouseleave', mouseLeave)
+      .on('click', onClick);
   });
 </script>
