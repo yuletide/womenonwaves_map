@@ -47,7 +47,8 @@
 
     d3.csv(csv, function (d) {
       // data.set(d.code, +d.pop);
-      data.set(d.code, { color: d.color, link: d.link });
+      // data.set(d.code, { color: d.color, link: d.link });
+      data.set(d.name, { color: d.color, link: d.link });
     }),
   ]).then(function (loadData) {
     let topo = loadData[0];
@@ -85,8 +86,9 @@
       // set the color of each country
       .attr('fill', function (d) {
         // d.total = data.get(d.id) || 0;
-        d.data = data.get(d.id) || {};
-        console.log(d);
+        console.log(d.properties.name);
+        d.data = data.get(d.properties.name) || {};
+        // d.data = data.get(d.name) || {};
         // return colorScale(d.total);
         return d['data']['color'];
       })
