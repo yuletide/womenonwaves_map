@@ -11,3 +11,9 @@ Click on a country to find out under what brand name misoprostol is sold, the ab
 Orange: Abortion illegal and Misoprostol is easily available.
 Purple: Abortion is legal
 Pink: Abortion illegal and Misoprostol is not registered or very hard to get. Go to www.womenonweb.org to get abortionpills.
+
+See more:
+https://womenonwaves.org/en
+https://aidaccess.org/en/
+
+Built with Python and D3
