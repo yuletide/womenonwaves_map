@@ -7,6 +7,19 @@
 <script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
 <script src="https://cdn.jsdelivr.net/npm/d3-zoom@3"></script>
+<style>
+  #caption {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .list-item-image-bar {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    display: inline-block;
+  }
+</style>
 <!-- <script type="module">
 
   import {geoAitoff} from "https://cdn.skypack.dev/d3-geo-projection@4";
@@ -15,8 +28,15 @@
   
   </script> -->
 <!-- Create an element where the map will take place -->
-<svg id="my_dataviz" width="800" height="600"></svg>
-<div id="caption">Country Name</div>
+<svg id="my_dataviz" width="1000" height="600"></svg>
+<div id="legend">
+  <div
+    class="list-item-image-bar"
+    id="swatch"
+    style="background-color: #331575"
+  ></div>
+  <a id="caption">Country Name</a>
+</div>
 
 <script>
   const geojson =
@@ -64,6 +84,9 @@
     let mouseOver = function (d) {
       caption.innerHTML = d.target.__data__.properties.name;
       caption.style.color = d.target.__data__.data.color || '#000';
+      document.querySelector('#swatch').style['background-color'] =
+        d.target.__data__.data.color || '#000';
+
       d3.selectAll('.Country').transition().duration(200).style('opacity', 0.5);
       d3.select(this)
         .transition()
