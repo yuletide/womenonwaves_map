@@ -16,6 +16,7 @@
   </script> -->
 <!-- Create an element where the map will take place -->
 <svg id="my_dataviz" width="800" height="600"></svg>
+<div id="caption">Country Name</div>
 
 <script>
   const geojson =
@@ -32,9 +33,9 @@
   // Map and projection
   const path = d3.geoPath();
   const projection = d3
-    // .geoNaturalEarth2()
-    .geoWinkel3()
-    // .scale(90)
+    .geoNaturalEarth2()
+    // .geoWinkel3()
+    // .scale(99)
     .center([0, 20])
     .translate([width / 2, height / 2]);
 
@@ -58,8 +59,11 @@
     const zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
 
     let topo = loadData[0];
+    const caption = document.querySelector('#caption');
 
     let mouseOver = function (d) {
+      caption.innerHTML = d.target.__data__.properties.name;
+      caption.style.color = d.target.__data__.data.color || '#000';
       d3.selectAll('.Country').transition().duration(200).style('opacity', 0.5);
       d3.select(this)
         .transition()
