@@ -15,6 +15,8 @@ for country in soup.find_all("div", class_="list-item-country"):
   country_obj['name'] = link.get_text().strip()
   country_obj['link'] = link.get("href")
   country_obj['color'] = link.get("style")
+  if country_obj['color']:
+    country_obj['color'] = country_obj['color'].split(":")[1].strip()
   countries.append(country_obj)
 
 count = 0
