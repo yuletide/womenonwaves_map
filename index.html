@@ -25,7 +25,11 @@
   </head>
 
   <body>
-    <svg id="my_dataviz" width="1000" height="600"></svg>
+    <svg
+      id="my_dataviz"
+      preserveAspectRatio="xMidYMid meet"
+      viewBox="50 50 1000 500"
+    ></svg>
     <div id="legend">
       <div
         class="list-item-image-bar"
@@ -67,8 +71,8 @@
         .geoNaturalEarth2()
         // .geoWinkel3()
         // .scale(99)
-        .center([0, 20])
-        .translate([width / 2, height / 2]);
+        .center([0, 20]);
+      // .translate([width / 2, height / 2]);
 
       // Data and color scale
       const data = new Map();
