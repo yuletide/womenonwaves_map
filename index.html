@@ -10,6 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-zoom@3"></script>
     <style>
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
       #caption {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         font-size: 24px;
@@ -20,10 +23,44 @@
         height: 20px;
         background-color: #ccc;
         display: inline-block;
+        margin-right: 5px;
+      }
+      #key {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+        flex-direction: column;
+      }
+      .center {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+      }
+
+      .pink {
+        background-color: #ff0066;
+      }
+      .purple {
+        background-color: #331575;
+      }
+      .orange {
+        background-color: #fe7d18;
+      }
+      #swatch {
+        width: 30px;
+        height: 30px;
       }
     </style>
-  </head>
+    <!-- <script type="module">
 
+  import {geoAitoff} from "https://cdn.skypack.dev/d3-geo-projection@4";
+  
+  var proj = geoAitoff();
+  
+  </script> -->
+    <!-- Create an element where the map will take place -->
+  </head>
   <body>
     <svg
       id="my_dataviz"
@@ -31,13 +68,26 @@
       viewBox="50 50 1000 500"
     ></svg>
     <div id="legend">
-      <div
-        class="list-item-image-bar"
-        id="swatch"
-        style="background-color: #331575"
-      ></div>
-      <a id="caption">Select a Country</a>
+      <ul id="key">
+        <li class="center">
+          <span class="list-item-image-bar purple"></span>Abortion is legal
+        </li>
+        <li class="center">
+          <span class="list-item-image-bar orange"></span>Abortion illegal and
+          Misoprostol is easily available.
+        </li>
+        <li class="center">
+          <span class="list-item-image-bar pink"></span>Abortion illegal and
+          Misoprostol is not registered or very hard to get.
+        </li>
+      </ul>
+      <div id="maplabel" class="center">
+        <div class="list-item-image-bar purple" id="swatch"></div>
+        <a id="caption">Select a Country</a>
+      </div>
+      <div>Go to www.womenonweb.org to get abortionpills.</div>
     </div>
+
     <script>
       const countryNameMap = {
         'Bosnia-Herzegovina': 'Bosnia and Herzegovina',
@@ -55,9 +105,7 @@
         'United States of America': 'USA',
       };
       const geojson = './world.geojson';
-      // const geojson ='https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
       const csv = './countries.csv';
-      // const csv =
       // 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world_population.csv';
 
       // The svg
@@ -76,6 +124,10 @@
 
       // Data and color scale
       const data = new Map();
+      const colorScale = d3
+        .scaleThreshold()
+        .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
+        .range(d3.schemeBlues[7]);
 
       // Load external data and boot
       Promise.all([
