@@ -1,213 +1,223 @@
 <!DOCTYPE html>
-<meta charset="utf-8" />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<!-- https://d3-graph-gallery.com/graph/choropleth_hover_effect.html -->
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v6.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
-<script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
-<script src="https://cdn.jsdelivr.net/npm/d3-zoom@3"></script>
-<style>
-  body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  #caption {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-  }
-  .list-item-image-bar {
-    width: 20px;
-    height: 20px;
-    background-color: #ccc;
-    display: inline-block;
-    margin-right: 5px;
-  }
-  #key {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flexbox;
-    flex-direction: column;
-  }
-  .center {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-  }
+    <!-- https://d3-graph-gallery.com/graph/choropleth_hover_effect.html -->
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-drag@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-zoom@3"></script>
+    <style>
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+      #caption {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+      }
+      .list-item-image-bar {
+        width: 20px;
+        height: 20px;
+        background-color: #ccc;
+        display: inline-block;
+        margin-right: 5px;
+      }
+      #key {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flexbox;
+        flex-direction: column;
+      }
+      .center {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+      }
 
-  .pink {
-    background-color: #ff0066;
-  }
-  .purple {
-    background-color: #331575;
-  }
-  .orange {
-    background-color: #fe7d18;
-  }
-  #swatch {
-    width: 30px;
-    height: 30px;
-  }
-</style>
-<!-- <script type="module">
+      .pink {
+        background-color: #ff0066;
+      }
+      .purple {
+        background-color: #331575;
+      }
+      .orange {
+        background-color: #fe7d18;
+      }
+      #swatch {
+        width: 30px;
+        height: 30px;
+      }
+    </style>
+    <!-- <script type="module">
 
   import {geoAitoff} from "https://cdn.skypack.dev/d3-geo-projection@4";
   
   var proj = geoAitoff();
   
   </script> -->
-<!-- Create an element where the map will take place -->
-<svg id="my_dataviz" width="1000" height="600"></svg>
-<div id="legend">
-  <ul id="key">
-    <li class="center">
-      <span class="list-item-image-bar purple"></span>Abortion is legal
-    </li>
-    <li class="center">
-      <span class="list-item-image-bar orange"></span>Abortion illegal and
-      Misoprostol is easily available.
-    </li>
-    <li class="center">
-      <span class="list-item-image-bar pink"></span>Abortion illegal and
-      Misoprostol is not registered or very hard to get.
-    </li>
-  </ul>
-  <div id="maplabel" class="center">
-    <div class="list-item-image-bar purple" id="swatch"></div>
-    <a id="caption">Select a Country</a>
-  </div>
-  <div>Go to www.womenonweb.org to get abortionpills.</div>
-</div>
+    <!-- Create an element where the map will take place -->
+  </head>
+  <body>
+    <svg id="my_dataviz" width="1000" height="600"></svg>
+    <div id="legend">
+      <ul id="key">
+        <li class="center">
+          <span class="list-item-image-bar purple"></span>Abortion is legal
+        </li>
+        <li class="center">
+          <span class="list-item-image-bar orange"></span>Abortion illegal and
+          Misoprostol is easily available.
+        </li>
+        <li class="center">
+          <span class="list-item-image-bar pink"></span>Abortion illegal and
+          Misoprostol is not registered or very hard to get.
+        </li>
+      </ul>
+      <div id="maplabel" class="center">
+        <div class="list-item-image-bar purple" id="swatch"></div>
+        <a id="caption">Select a Country</a>
+      </div>
+      <div>Go to www.womenonweb.org to get abortionpills.</div>
+    </div>
 
-<script>
-  const countryNameMap = {
-    'Bosnia-Herzegovina': 'Bosnia and Herzegovina',
-    "Cote d'Ivoire": 'Ivory Coast',
-    'DRC Congo': 'Democratic Republic of the Congo',
-    Congo: 'Republic of the Congo',
-    Palestine: 'West Bank',
-    Phillipines: 'Philippines',
-    'Russian Federation': 'Russia',
-    Serbia: 'Republic of Serbia',
-    Tanzania: 'United Republic of Tanzania',
-    'The Netherlands': 'Netherlands',
-    'U.A.E.': 'United Arab Emirates',
-    'United Kingdom': 'England',
-    'United States of America': 'USA',
-  };
-  // const geojson ='https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
-  const geojson = './world.geojson';
-  const csv = './countries.csv';
-  // const csv =
-  // 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world_population.csv';
+    <script>
+      const countryNameMap = {
+        'Bosnia-Herzegovina': 'Bosnia and Herzegovina',
+        "Cote d'Ivoire": 'Ivory Coast',
+        'DRC Congo': 'Democratic Republic of the Congo',
+        Congo: 'Republic of the Congo',
+        Palestine: 'West Bank',
+        Phillipines: 'Philippines',
+        'Russian Federation': 'Russia',
+        Serbia: 'Republic of Serbia',
+        Tanzania: 'United Republic of Tanzania',
+        'The Netherlands': 'Netherlands',
+        'U.A.E.': 'United Arab Emirates',
+        'United Kingdom': 'England',
+        'United States of America': 'USA',
+      };
+      const geojson = './world.geojson';
+      const csv = './countries.csv';
+      // 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world_population.csv';
 
-  // The svg
-  const svg = d3.select('svg'),
-    width = +svg.attr('width'),
-    height = +svg.attr('height');
+      // The svg
+      const svg = d3.select('svg'),
+        width = +svg.attr('width'),
+        height = +svg.attr('height');
 
-  // Map and projection
-  const path = d3.geoPath();
-  const projection = d3
-    .geoNaturalEarth2()
-    // .geoWinkel3()
-    // .scale(99)
-    .center([0, 20])
-    .translate([width / 2, height / 2]);
+      // Map and projection
+      const path = d3.geoPath();
+      const projection = d3
+        .geoNaturalEarth2()
+        // .geoWinkel3()
+        // .scale(99)
+        .center([0, 20])
+        .translate([width / 2, height / 2]);
 
-  // Data and color scale
-  const data = new Map();
-  const colorScale = d3
-    .scaleThreshold()
-    .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
-    .range(d3.schemeBlues[7]);
+      // Data and color scale
+      const data = new Map();
+      const colorScale = d3
+        .scaleThreshold()
+        .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
+        .range(d3.schemeBlues[7]);
 
-  // Load external data and boot
-  Promise.all([
-    d3.json(geojson),
+      // Load external data and boot
+      Promise.all([
+        d3.json(geojson),
 
-    d3.csv(csv, function (d) {
-      // data.set(d.code, +d.pop);
-      // data.set(d.code, { color: d.color, link: d.link });
-      if (d.name in countryNameMap) {
-        d.name = countryNameMap[d.name];
-      }
-      data.set(d.name, { color: d.color, link: d.link });
-    }),
-  ]).then(function (loadData) {
-    const zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
+        d3.csv(csv, function (d) {
+          // data.set(d.code, +d.pop);
+          // data.set(d.code, { color: d.color, link: d.link });
+          if (d.name in countryNameMap) {
+            d.name = countryNameMap[d.name];
+          }
+          data.set(d.name, { color: d.color, link: d.link });
+        }),
+      ]).then(function (loadData) {
+        const zoom = d3.zoom().scaleExtent([1, 8]).on('zoom', zoomed);
 
-    let topo = loadData[0];
-    const caption = document.querySelector('#caption');
+        let topo = loadData[0];
+        const caption = document.querySelector('#caption');
 
-    let mouseOver = function (d) {
-      caption.innerHTML = d.target.__data__.properties.name;
-      caption.style.color = d.target.__data__.data.color || '#000';
-      document.querySelector('#swatch').style['background-color'] =
-        d.target.__data__.data.color || '#000';
+        let mouseOver = function (d) {
+          caption.innerHTML = d.target.__data__.properties.name;
+          caption.style.color = d.target.__data__.data.color || '#000';
+          document.querySelector('#swatch').style['background-color'] =
+            d.target.__data__.data.color || '#000';
 
-      d3.selectAll('.Country').transition().duration(200).style('opacity', 0.5);
-      d3.select(this)
-        .transition()
-        .duration(200)
-        .style('opacity', 1)
-        .style('stroke', 'black');
-    };
+          d3.selectAll('.Country')
+            .transition()
+            .duration(200)
+            .style('opacity', 0.5);
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style('opacity', 1)
+            .style('stroke', 'black');
+        };
 
-    let mouseLeave = function (d) {
-      d3.selectAll('.Country').transition().duration(200).style('opacity', 0.8);
-      d3.select(this).transition().duration(200).style('stroke', 'none');
-    };
+        let mouseLeave = function (d) {
+          d3.selectAll('.Country')
+            .transition()
+            .duration(200)
+            .style('opacity', 0.8);
+          d3.select(this).transition().duration(200).style('stroke', 'none');
+        };
 
-    let onClick = function (d) {
-      // somehow get the link and do something with it
-      const linkFragment = d.srcElement.__data__.data.link;
-      if (linkFragment) {
-        const link = linkFragment
-          ? `https://www.womenonwaves.org${linkFragment}`
-          : '';
-        console.log(link);
-        window.open(link, '_blank');
-      }
-    };
+        let onClick = function (d) {
+          // somehow get the link and do something with it
+          const linkFragment = d.srcElement.__data__.data.link;
+          if (linkFragment) {
+            const link = linkFragment
+              ? `https://www.womenonwaves.org${linkFragment}`
+              : '';
+            console.log(link);
+            window.open(link, '_blank');
+          }
+        };
 
-    // Draw the map
-    const g = svg.append('g');
+        // Draw the map
+        const g = svg.append('g');
 
-    g.selectAll('path')
-      .data(topo.features)
-      .enter()
-      .append('path')
-      // draw each country
-      .attr('d', d3.geoPath().projection(projection))
-      // set the color of each country
-      .attr('fill', function (d) {
-        // d.total = data.get(d.id) || 0;
-        console.log(d.properties.name);
-        d.data = data.get(d.properties.name) || {};
-        // d.data = data.get(d.name) || {};
-        // return colorScale(d.total);
-        return d['data']['color'];
-      })
-      .style('stroke', 'transparent')
-      .attr('class', function (d) {
-        return 'Country';
-      })
-      .attr('href', function (d) {
-        return d['data']['link'];
-      })
-      .style('opacity', 0.8)
-      .on('mouseover', mouseOver)
-      .on('mouseleave', mouseLeave)
-      .on('click', onClick);
+        g.selectAll('path')
+          .data(topo.features)
+          .enter()
+          .append('path')
+          // draw each country
+          .attr('d', d3.geoPath().projection(projection))
+          // set the color of each country
+          .attr('fill', function (d) {
+            // d.total = data.get(d.id) || 0;
+            console.log(d.properties.name);
+            d.data = data.get(d.properties.name) || {};
+            // d.data = data.get(d.name) || {};
+            // return colorScale(d.total);
+            return d['data']['color'];
+          })
+          .style('stroke', 'transparent')
+          .attr('class', function (d) {
+            return 'Country';
+          })
+          .attr('href', function (d) {
+            return d['data']['link'];
+          })
+          .style('opacity', 0.8)
+          .on('mouseover', mouseOver)
+          .on('mouseleave', mouseLeave)
+          .on('click', onClick);
 
-    svg.call(zoom);
+        svg.call(zoom);
 
-    function zoomed(event) {
-      const { transform } = event;
-      g.attr('transform', transform);
-      g.attr('stroke-width', 1 / transform.k);
-    }
-  });
-</script>
+        function zoomed(event) {
+          const { transform } = event;
+          g.attr('transform', transform);
+          g.attr('stroke-width', 1 / transform.k);
+        }
+      });
+    </script>
+  </body>
+</html>
